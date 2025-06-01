@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_809acc656fa4d6e598addd82787ea0e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_809acc656fa4d6e598addd82787ea0e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_809acc656fa4d6e598addd82787ea0e0 = L.map(
+                "map_809acc656fa4d6e598addd82787ea0e0",
+                {
+                    center: [53.0839, 5.955],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c34c44383250368f49652149e7ba69f9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c34c44383250368f49652149e7ba69f9.addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var marker_067bb66d62c4b84bd1c06183c54b5c16 = L.marker(
+                [52.9, 5.75],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_2b7e43e77cba5c8cc5893541166e2ee8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1cc296fc75fca68de7d793e7e465502e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4f4ffab0e02662820e69aa9161b7540 = $(`<div id="html_e4f4ffab0e02662820e69aa9161b7540" style="width: 100.0%; height: 100.0%;">De Fryske Marren: Infrastructure</div>`)[0];
+                popup_1cc296fc75fca68de7d793e7e465502e.setContent(html_e4f4ffab0e02662820e69aa9161b7540);
+            
+        
+
+        marker_067bb66d62c4b84bd1c06183c54b5c16.bindPopup(popup_1cc296fc75fca68de7d793e7e465502e)
+        ;
+
+        
+    
+    
+                marker_067bb66d62c4b84bd1c06183c54b5c16.setIcon(icon_2b7e43e77cba5c8cc5893541166e2ee8);
+            
+    
+            var marker_b2e0a74fb30a3bc369fd6c8323eba6a8 = L.marker(
+                [53.3333, 6.8667],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_fce8f644ec26684480e32ab78423aaee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1bd8a7e27f45445806326b1348bdb88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f6a2097ee49c4a0e38dff76023bec13 = $(`<div id="html_3f6a2097ee49c4a0e38dff76023bec13" style="width: 100.0%; height: 100.0%;">Eemsdelta: Infrastructure</div>`)[0];
+                popup_d1bd8a7e27f45445806326b1348bdb88.setContent(html_3f6a2097ee49c4a0e38dff76023bec13);
+            
+        
+
+        marker_b2e0a74fb30a3bc369fd6c8323eba6a8.bindPopup(popup_d1bd8a7e27f45445806326b1348bdb88)
+        ;
+
+        
+    
+    
+                marker_b2e0a74fb30a3bc369fd6c8323eba6a8.setIcon(icon_fce8f644ec26684480e32ab78423aaee);
+            
+    
+            var marker_a02f2e6d037c5ef1282445871d2b17b5 = L.marker(
+                [53.2194, 6.5665],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_22b219ed93e9e8ea11b1f93dcab0335e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f86c7103634e7aba4eb5d985bd9ee3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24087a40a2ed7e5cfd1ca05404347f86 = $(`<div id="html_24087a40a2ed7e5cfd1ca05404347f86" style="width: 100.0%; height: 100.0%;">Groningen: Infrastructure</div>`)[0];
+                popup_5f86c7103634e7aba4eb5d985bd9ee3c.setContent(html_24087a40a2ed7e5cfd1ca05404347f86);
+            
+        
+
+        marker_a02f2e6d037c5ef1282445871d2b17b5.bindPopup(popup_5f86c7103634e7aba4eb5d985bd9ee3c)
+        ;
+
+        
+    
+    
+                marker_a02f2e6d037c5ef1282445871d2b17b5.setIcon(icon_22b219ed93e9e8ea11b1f93dcab0335e);
+            
+    
+            var marker_0763faafdf62f83377082a78c4c8c7d5 = L.marker(
+                [53.1736, 5.4223],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_c71f4c5c71b69f821e23326054dc1320 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_577a1e544c681f4675afbe8bde1ef88a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1964987c782b440b7ee99b79b68b7040 = $(`<div id="html_1964987c782b440b7ee99b79b68b7040" style="width: 100.0%; height: 100.0%;">Harlingen: Infrastructure</div>`)[0];
+                popup_577a1e544c681f4675afbe8bde1ef88a.setContent(html_1964987c782b440b7ee99b79b68b7040);
+            
+        
+
+        marker_0763faafdf62f83377082a78c4c8c7d5.bindPopup(popup_577a1e544c681f4675afbe8bde1ef88a)
+        ;
+
+        
+    
+    
+                marker_0763faafdf62f83377082a78c4c8c7d5.setIcon(icon_c71f4c5c71b69f821e23326054dc1320);
+            
+    
+            var marker_3e06580f3f745b83a777a4b5437c7caa = L.marker(
+                [52.9602, 5.9209],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_8545722fa3a86eb90b4000d249536578 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9738090df5b84d4211af4986a07341ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcfc9d232d556bc2e1010fde9b7e901f = $(`<div id="html_fcfc9d232d556bc2e1010fde9b7e901f" style="width: 100.0%; height: 100.0%;">Heerenveen: Infrastructure</div>`)[0];
+                popup_9738090df5b84d4211af4986a07341ae.setContent(html_fcfc9d232d556bc2e1010fde9b7e901f);
+            
+        
+
+        marker_3e06580f3f745b83a777a4b5437c7caa.bindPopup(popup_9738090df5b84d4211af4986a07341ae)
+        ;
+
+        
+    
+    
+                marker_3e06580f3f745b83a777a4b5437c7caa.setIcon(icon_8545722fa3a86eb90b4000d249536578);
+            
+    
+            var marker_65ee6854151c9dc80c93bf4ee7163f1c = L.marker(
+                [52.2292, 5.1669],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_24a72225f6a2dc61f5c35ba5003e99e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30d4517d743146cda73cb157a77c7a62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f7f4f5bc9a5956e683c7d042df7eee1 = $(`<div id="html_4f7f4f5bc9a5956e683c7d042df7eee1" style="width: 100.0%; height: 100.0%;">Hilversum: Infrastructure</div>`)[0];
+                popup_30d4517d743146cda73cb157a77c7a62.setContent(html_4f7f4f5bc9a5956e683c7d042df7eee1);
+            
+        
+
+        marker_65ee6854151c9dc80c93bf4ee7163f1c.bindPopup(popup_30d4517d743146cda73cb157a77c7a62)
+        ;
+
+        
+    
+    
+                marker_65ee6854151c9dc80c93bf4ee7163f1c.setIcon(icon_24a72225f6a2dc61f5c35ba5003e99e5);
+            
+    
+            var marker_bfa379b90f0ef7a3a4bc2234f7818f4d = L.marker(
+                [51.99, 4.5],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_1b930bc556e961684b913d9d272924c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cacc075fcd75a868419973b39d31a93d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3614287d0f2e57ae9400f3c7570738d8 = $(`<div id="html_3614287d0f2e57ae9400f3c7570738d8" style="width: 100.0%; height: 100.0%;">Lansingerland: Infrastructure</div>`)[0];
+                popup_cacc075fcd75a868419973b39d31a93d.setContent(html_3614287d0f2e57ae9400f3c7570738d8);
+            
+        
+
+        marker_bfa379b90f0ef7a3a4bc2234f7818f4d.bindPopup(popup_cacc075fcd75a868419973b39d31a93d)
+        ;
+
+        
+    
+    
+                marker_bfa379b90f0ef7a3a4bc2234f7818f4d.setIcon(icon_1b930bc556e961684b913d9d272924c8);
+            
+    
+            var marker_d783f669e5102558efebf8c2882c7d4f = L.marker(
+                [53.2012, 5.7999],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_f99b10cc780965ec806ffbf871f1bfd3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_232a2d416c49822ce2975bb5506239b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b510c6f5dd54d4f6a2e75014786e6a9f = $(`<div id="html_b510c6f5dd54d4f6a2e75014786e6a9f" style="width: 100.0%; height: 100.0%;">Leeuwarden: Infrastructure</div>`)[0];
+                popup_232a2d416c49822ce2975bb5506239b9.setContent(html_b510c6f5dd54d4f6a2e75014786e6a9f);
+            
+        
+
+        marker_d783f669e5102558efebf8c2882c7d4f.bindPopup(popup_232a2d416c49822ce2975bb5506239b9)
+        ;
+
+        
+    
+    
+                marker_d783f669e5102558efebf8c2882c7d4f.setIcon(icon_f99b10cc780965ec806ffbf871f1bfd3);
+            
+    
+            var marker_8cdff26a8f65dcec0822d784487d6a75 = L.marker(
+                [51.8425, 5.8528],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_2a0860218dcb993917428b9cdb3ab0bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7aa6bc9354ad9a2e48800d2f78162e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6274c2e84b917fb5ede2cd536378b1c = $(`<div id="html_d6274c2e84b917fb5ede2cd536378b1c" style="width: 100.0%; height: 100.0%;">Nijmegen: Youth & Education</div>`)[0];
+                popup_d7aa6bc9354ad9a2e48800d2f78162e6.setContent(html_d6274c2e84b917fb5ede2cd536378b1c);
+            
+        
+
+        marker_8cdff26a8f65dcec0822d784487d6a75.bindPopup(popup_d7aa6bc9354ad9a2e48800d2f78162e6)
+        ;
+
+        
+    
+    
+                marker_8cdff26a8f65dcec0822d784487d6a75.setIcon(icon_2a0860218dcb993917428b9cdb3ab0bd);
+            
+    
+            var marker_06684dc2f07896c63143d7f8bbd1a8c5 = L.marker(
+                [53.35, 6.0],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_dbe5e090d32dc1358af9077b724dcf4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dca11833cd83775d618b76ebe35c6f1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56f1c9b174ae46e8dac009e25b70c8f4 = $(`<div id="html_56f1c9b174ae46e8dac009e25b70c8f4" style="width: 100.0%; height: 100.0%;">Noardeast-Fryslân: Infrastructure</div>`)[0];
+                popup_dca11833cd83775d618b76ebe35c6f1f.setContent(html_56f1c9b174ae46e8dac009e25b70c8f4);
+            
+        
+
+        marker_06684dc2f07896c63143d7f8bbd1a8c5.bindPopup(popup_dca11833cd83775d618b76ebe35c6f1f)
+        ;
+
+        
+    
+    
+                marker_06684dc2f07896c63143d7f8bbd1a8c5.setIcon(icon_dbe5e090d32dc1358af9077b724dcf4f);
+            
+    
+            var marker_64430832b430e266cdbc86acfe9cba6c = L.marker(
+                [53.1, 6.0],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_e4ec5d291f21709ab4bbd02825882d0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_296314487afa88a7d80abf5c19fa683d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5300f8ee1f8c73bdbbe3e997a24bfc48 = $(`<div id="html_5300f8ee1f8c73bdbbe3e997a24bfc48" style="width: 100.0%; height: 100.0%;">Smallingerland: Infrastructure</div>`)[0];
+                popup_296314487afa88a7d80abf5c19fa683d.setContent(html_5300f8ee1f8c73bdbbe3e997a24bfc48);
+            
+        
+
+        marker_64430832b430e266cdbc86acfe9cba6c.bindPopup(popup_296314487afa88a7d80abf5c19fa683d)
+        ;
+
+        
+    
+    
+                marker_64430832b430e266cdbc86acfe9cba6c.setIcon(icon_e4ec5d291f21709ab4bbd02825882d0a);
+            
+    
+            var marker_10de6d402a9a84ed8824ede69d7d1ea5 = L.marker(
+                [53.05, 5.4],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_c7040dcb512583f3113cf03668fff50f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1538b442ced75bb3313726cd64021c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_334d21fce18efb7e162f6266f1e95f00 = $(`<div id="html_334d21fce18efb7e162f6266f1e95f00" style="width: 100.0%; height: 100.0%;">Súdwest-Fryslân: Infrastructure</div>`)[0];
+                popup_e1538b442ced75bb3313726cd64021c8.setContent(html_334d21fce18efb7e162f6266f1e95f00);
+            
+        
+
+        marker_10de6d402a9a84ed8824ede69d7d1ea5.bindPopup(popup_e1538b442ced75bb3313726cd64021c8)
+        ;
+
+        
+    
+    
+                marker_10de6d402a9a84ed8824ede69d7d1ea5.setIcon(icon_c7040dcb512583f3113cf03668fff50f);
+            
+    
+            var marker_9da7839d87fe65e368f47ccbac7d0719 = L.marker(
+                [53.25, 5.55],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_bd7464ba5227348c6321dcfc8db1260e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03db1b463148c03d3840f2df501a9760 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6064e801daec5b7d953790e0bbd614 = $(`<div id="html_bd6064e801daec5b7d953790e0bbd614" style="width: 100.0%; height: 100.0%;">Waadhoeke: Youth & Education</div>`)[0];
+                popup_03db1b463148c03d3840f2df501a9760.setContent(html_bd6064e801daec5b7d953790e0bbd614);
+            
+        
+
+        marker_9da7839d87fe65e368f47ccbac7d0719.bindPopup(popup_03db1b463148c03d3840f2df501a9760)
+        ;
+
+        
+    
+    
+                marker_9da7839d87fe65e368f47ccbac7d0719.setIcon(icon_bd7464ba5227348c6321dcfc8db1260e);
+            
+    
+            var marker_f7287ab0c0c5353f5eed8dc9a6f1185b = L.marker(
+                [52.5168, 6.083],
+                {
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+        
+    
+            var icon_3fd191f75c8b0e2fdb717bd840ccec5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6fdb531c88172867bffd9d8539806d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4c0b5e7b8de2ac8b6d71fb5aa1d98da = $(`<div id="html_d4c0b5e7b8de2ac8b6d71fb5aa1d98da" style="width: 100.0%; height: 100.0%;">Zwolle: Youth & Education</div>`)[0];
+                popup_b6fdb531c88172867bffd9d8539806d7.setContent(html_d4c0b5e7b8de2ac8b6d71fb5aa1d98da);
+            
+        
+
+        marker_f7287ab0c0c5353f5eed8dc9a6f1185b.bindPopup(popup_b6fdb531c88172867bffd9d8539806d7)
+        ;
+
+        
+    
+    
+                marker_f7287ab0c0c5353f5eed8dc9a6f1185b.setIcon(icon_3fd191f75c8b0e2fdb717bd840ccec5e);
+            
+    
+            var layer_control_82da652405a4b0945c9376776d355873_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_c34c44383250368f49652149e7ba69f9,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_82da652405a4b0945c9376776d355873 = L.control.layers(
+                layer_control_82da652405a4b0945c9376776d355873_layers.base_layers,
+                layer_control_82da652405a4b0945c9376776d355873_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_809acc656fa4d6e598addd82787ea0e0);
+
+        
+</script>
+</html>
